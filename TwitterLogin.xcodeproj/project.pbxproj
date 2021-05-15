@@ -18,6 +18,7 @@
 		778FE70725CBF1940087180D /* TwitterLoginError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778FE70625CBF1940087180D /* TwitterLoginError.swift */; };
 		77DEAA4625CEA34C000C7957 /* TwitterLoginFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DEAA4525CEA34C000C7957 /* TwitterLoginFactory.swift */; };
 		77DEAA4A25CEDAA2000C7957 /* TwitterConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DEAA4925CEDAA2000C7957 /* TwitterConfiguration.swift */; };
+		77FB02B426503F9100B5032E /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FB02B326503F9100B5032E /* Package.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		778FE70625CBF1940087180D /* TwitterLoginError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterLoginError.swift; sourceTree = "<group>"; };
 		77DEAA4525CEA34C000C7957 /* TwitterLoginFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterLoginFactory.swift; sourceTree = "<group>"; };
 		77DEAA4925CEDAA2000C7957 /* TwitterConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterConfiguration.swift; sourceTree = "<group>"; };
+		77FB02B326503F9100B5032E /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				778FE6FA25CBEF8C0087180D /* TwitterLoginWebViewHandler.swift */,
 				778FE6F625CBEF880087180D /* TwitterLoginDataStorage.swift */,
 				77DEAA4525CEA34C000C7957 /* TwitterLoginFactory.swift */,
+				77FB02B326503F9100B5032E /* Package.swift */,
 				778FE6D825CBEF680087180D /* Info.plist */,
 			);
 			path = TwitterLogin;
@@ -222,6 +225,7 @@
 				77DEAA4A25CEDAA2000C7957 /* TwitterConfiguration.swift in Sources */,
 				778FE6F125CBEF800087180D /* TwitterLoginApis.swift in Sources */,
 				778FE6FF25CBEF900087180D /* TwitterLogin.swift in Sources */,
+				77FB02B426503F9100B5032E /* Package.swift in Sources */,
 				778FE70325CBEF940087180D /* TwitterConfigure.swift in Sources */,
 				778FE70725CBF1940087180D /* TwitterLoginError.swift in Sources */,
 				778FE6FB25CBEF8C0087180D /* TwitterLoginWebViewHandler.swift in Sources */,

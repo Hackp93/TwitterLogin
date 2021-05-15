@@ -10,6 +10,14 @@
 		778FE6DE25CBEF680087180D /* TwitterLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 778FE6D425CBEF680087180D /* TwitterLogin.framework */; };
 		778FE6E325CBEF680087180D /* TwitterLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778FE6E225CBEF680087180D /* TwitterLoginTests.swift */; };
 		778FE6E525CBEF680087180D /* TwitterLogin.h in Headers */ = {isa = PBXBuildFile; fileRef = 778FE6D725CBEF680087180D /* TwitterLogin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		778FE6F125CBEF800087180D /* TwitterLoginApis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778FE6F025CBEF800087180D /* TwitterLoginApis.swift */; };
+		778FE6F725CBEF880087180D /* TwitterLoginDataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778FE6F625CBEF880087180D /* TwitterLoginDataStorage.swift */; };
+		778FE6FB25CBEF8C0087180D /* TwitterLoginWebViewHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778FE6FA25CBEF8C0087180D /* TwitterLoginWebViewHandler.swift */; };
+		778FE6FF25CBEF900087180D /* TwitterLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778FE6FE25CBEF900087180D /* TwitterLogin.swift */; };
+		778FE70325CBEF940087180D /* TwitterConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778FE70225CBEF940087180D /* TwitterConfigure.swift */; };
+		778FE70725CBF1940087180D /* TwitterLoginError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778FE70625CBF1940087180D /* TwitterLoginError.swift */; };
+		77DEAA4625CEA34C000C7957 /* TwitterLoginFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DEAA4525CEA34C000C7957 /* TwitterLoginFactory.swift */; };
+		77DEAA4A25CEDAA2000C7957 /* TwitterConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DEAA4925CEDAA2000C7957 /* TwitterConfiguration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +37,14 @@
 		778FE6DD25CBEF680087180D /* TwitterLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitterLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		778FE6E225CBEF680087180D /* TwitterLoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterLoginTests.swift; sourceTree = "<group>"; };
 		778FE6E425CBEF680087180D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		778FE6F025CBEF800087180D /* TwitterLoginApis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterLoginApis.swift; sourceTree = "<group>"; };
+		778FE6F625CBEF880087180D /* TwitterLoginDataStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterLoginDataStorage.swift; sourceTree = "<group>"; };
+		778FE6FA25CBEF8C0087180D /* TwitterLoginWebViewHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterLoginWebViewHandler.swift; sourceTree = "<group>"; };
+		778FE6FE25CBEF900087180D /* TwitterLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterLogin.swift; sourceTree = "<group>"; };
+		778FE70225CBEF940087180D /* TwitterConfigure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterConfigure.swift; sourceTree = "<group>"; };
+		778FE70625CBF1940087180D /* TwitterLoginError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterLoginError.swift; sourceTree = "<group>"; };
+		77DEAA4525CEA34C000C7957 /* TwitterLoginFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterLoginFactory.swift; sourceTree = "<group>"; };
+		77DEAA4925CEDAA2000C7957 /* TwitterConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterConfiguration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +88,14 @@
 			isa = PBXGroup;
 			children = (
 				778FE6D725CBEF680087180D /* TwitterLogin.h */,
+				778FE6F025CBEF800087180D /* TwitterLoginApis.swift */,
+				77DEAA4925CEDAA2000C7957 /* TwitterConfiguration.swift */,
+				778FE70625CBF1940087180D /* TwitterLoginError.swift */,
+				778FE6FE25CBEF900087180D /* TwitterLogin.swift */,
+				778FE70225CBEF940087180D /* TwitterConfigure.swift */,
+				778FE6FA25CBEF8C0087180D /* TwitterLoginWebViewHandler.swift */,
+				778FE6F625CBEF880087180D /* TwitterLoginDataStorage.swift */,
+				77DEAA4525CEA34C000C7957 /* TwitterLoginFactory.swift */,
 				778FE6D825CBEF680087180D /* Info.plist */,
 			);
 			path = TwitterLogin;
@@ -147,6 +171,7 @@
 				TargetAttributes = {
 					778FE6D325CBEF680087180D = {
 						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
 					};
 					778FE6DC25CBEF680087180D = {
 						CreatedOnToolsVersion = 12.3;
@@ -194,6 +219,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77DEAA4A25CEDAA2000C7957 /* TwitterConfiguration.swift in Sources */,
+				778FE6F125CBEF800087180D /* TwitterLoginApis.swift in Sources */,
+				778FE6FF25CBEF900087180D /* TwitterLogin.swift in Sources */,
+				778FE70325CBEF940087180D /* TwitterConfigure.swift in Sources */,
+				778FE70725CBF1940087180D /* TwitterLoginError.swift in Sources */,
+				778FE6FB25CBEF8C0087180D /* TwitterLoginWebViewHandler.swift in Sources */,
+				77DEAA4625CEA34C000C7957 /* TwitterLoginFactory.swift in Sources */,
+				778FE6F725CBEF880087180D /* TwitterLoginDataStorage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +374,7 @@
 		778FE6E925CBEF680087180D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 7JBDG9C93S;
@@ -349,6 +383,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = TwitterLogin/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -357,6 +392,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = me.hackp93.TwitterLogin;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -365,6 +401,7 @@
 		778FE6EA25CBEF680087180D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 7JBDG9C93S;
@@ -373,6 +410,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = TwitterLogin/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -389,6 +427,7 @@
 		778FE6EC25CBEF680087180D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7JBDG9C93S;
 				INFOPLIST_FILE = TwitterLoginTests/Info.plist;
@@ -407,6 +446,7 @@
 		778FE6ED25CBEF680087180D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7JBDG9C93S;
 				INFOPLIST_FILE = TwitterLoginTests/Info.plist;
